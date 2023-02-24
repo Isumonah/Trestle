@@ -3,72 +3,89 @@
   padding: 0;
 }
 body{
+  /* work on font */
   background: #FFFFF0;
-
+  font-family: 'Inter', sans-serif;
 }
 
 /* about section */
 
-.about-img{
-  width: 1200px;
-  margin: 0 auto 82px;
-  padding-top: 48px;
 
+.about-img-div{
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.about-img{
+  width: 1272px;
+  height: 816px;
+  margin: 0 auto;
+  padding: 48px 0 116px;
 }
 
 .about-img img{
   width: 100%;
 }
 
+
+/* our story */
+
 .our-story-div{
   background: #ADDDDF33;
-  padding: 60px 0 81px;
-  width: 1400px;
-
- 
-
+  width: 1440px;
 }
+
 .our-story{
   display: flex;
   margin: 0 auto;
   color: #0898A0;
   margin-bottom: 74px;
   padding-right: 96px;
-
 }
 
 .our-story img{
   width: 556px;
   height: 474px;
-  margin-right: 99px;
-  margin-left: 82px;
-}
-
-.story-writeup{
-  border: 1px solid red;
-
+  margin: 60px 99px 0 82px;
 }
 
 .story-writeup h1{
   font-size: 40px;
+  margin-top: 74px;
   margin-bottom: 24px;
+  line-height: 48px;
 }
+
 .story-writeup p{
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   width: 577px;
   margin-right: 124px;
 }
 
+/* get in touch */
+
 .get-in-touch{
   display: flex;
-  
   color: #0898A0;
 }
 
 .get-in-touch-list{
+  margin-top: 38px;
   margin-left: 190px;
-  margin-right: 308px;
+
+}
+
+.get-in-touch-list h2{
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.get-in-touch-list p{
+  margin-bottom: 30px;
+  margin-right: 328px;
+  line-height: 22.4px;
+  width: 240px;
 
 }
 
@@ -76,12 +93,196 @@ body{
   width: 584px;
   height: 474px;
   margin-right: 96px;
-  border: 1px solid red;
-
+  margin-bottom: 124px;
 }
 
-.get-in-touch-img img{
-
-  /* margin-left: 308px; */
-  /* padding-right: 96px; */
+/* get started */
+.sign-up-div{
+  text-align: center;
 }
+
+.sign-up-div h3{
+  font-size: 36px;
+  color: #0898A0;
+  line-height: 43.2px;
+}
+
+.sign-up-div button{
+  background: #0898A0;
+  width: 203px;
+  height: 62px;
+  color: #FFFFF0;
+  padding: 4px 40px;
+  border-radius: 8px;
+  margin-top: 24px;
+  margin-bottom: 115px;
+  font-size: 24px;
+}
+
+/* about trestle */
+.about-trestle{
+  display: flex;
+  color: #0898A0;
+}
+
+.about-trestle-writeup h3{
+  font-size: 24px;
+  margin-top: 28px;
+  margin-bottom: 14px;
+}
+.about-trestle-writeup{
+  margin-left: 113px;
+  margin-right: 311px;
+}
+
+.about-trestle-writeup p{
+  width: 456px;
+  height: 168px;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 14px;
+}
+
+.learn-more-button{
+  width: 264px;
+  height: 62px;
+  font-size: 24px;
+  line-height: 33.6px;
+  color:#FFFFF0;
+  background: #0898A0;
+}
+
+.learn-more-button:hover,
+.learn-more-button:focus{
+  background: #FFFFF0;
+  color: #0898A0;
+}
+
+.about-trestle-img{
+  width: 413px;
+  height: 323px;
+  margin: 14px 147px 84px 0;
+}
+
+.about-trestle-img img{
+  width: 100%;
+}
+
+/* invest page */
+
+.invest{
+  width: 1440px;
+}
+
+.invest-heading{
+  display: flex;
+}
+
+.invest-heading h1{
+   font-size: 40px;
+   width: 541px;
+   line-height: 48px;
+   margin: 56px 413px 0 94px;
+   color: #31A9B0;
+}
+
+.funded-portfolio{
+  width: 204px;
+  height: 44px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid #0898A0;
+  margin: 72px 187px 0 0;
+}
+
+.funded-portfolio a{
+  line-height: 24px;
+  color: #0898A0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.filter{
+  display: flex;
+  margin-left: 88px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.filter select{
+  width: 193px;
+  height: 65px;
+  color: #0898A0;
+  background: #FFFFF0;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border: none;
+  margin: 120px 24px 0 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.relevance-div{
+  display: flex;
+}
+
+.relevance-div p{
+  margin: 141px 24px 0 24px;
+  font-size: 20px;
+  color: #0898A0;
+}
+
+.investment-options{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: calc(189px - 96px);
+} 
+
+.investment-option h4{
+  font-size: 24px;
+  color: #0898A0;
+  margin-bottom: 31px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.investment-options p{
+  width: 382px;
+  height: 140px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
+.investment-option:nth-child(-n+3){
+  margin-top: 70px;
+}
+
+.investment-option img{
+  width: 398px;
+  height: 308px;
+  margin-bottom: 23px;
+}
+
+.investment-option:nth-child(3n - 2) {
+  margin-left: 88px;
+  margin-right: 32px;
+}
+
+.investment-option:nth-child(3n) {
+  margin-right: 90px;
+  margin-left: 32px;  
+}
+
+.investment-option button{
+  width: 183px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 2px 0;
+  background: #31A9B0;
+  color: #FFFFF0;
+  margin-top: 23px;
+  margin-bottom: 96px;
+}
+
+
+

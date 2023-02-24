@@ -1,9 +1,14 @@
 
 import About from "./components/About"
+import Invest from "./components/Invest"
 
 
 export default function App(){
     return(
-        <About />
+        <div>
+            {/* <About /> */}
+            <Invest />
+        </div>
+        
     )
 }

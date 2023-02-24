@@ -1,17 +1,21 @@
-
+import AboutTrestle from "./AboutTrestle"
 import businessWomen from "../images/business-women.png"
-import groupGirls from "../images/group-girls.png"
+import groupLadies from "../images/group-ladies.png"
 import cynthia from "../images/cynthia-asorock.png"
 
 export default function About(){
     return(
         <div className="about container">
-            <div className="about-img">
-                <img src={businessWomen} alt="business-women" />
+            <div className="about-img-div">
+                <div className="about-img">
+                    <img src={businessWomen} alt="business-women" />
+                </div>
             </div>
+            
+            
             <div className="our-story-div">
                 <div className="our-story">
-                    <img src={groupGirls} alt="group of girls" />
+                    <img src={groupLadies} alt="group of girls" />
                     <div className="story-writeup">
                         <h1>OUR STORY</h1>
                         <p>
@@ -46,10 +50,11 @@ export default function About(){
                     </div>
                 </div>
                 <div className="sign-up-div">
-                    <h3>READY TO GET STARTED</h3>
-                    <button className="sign-up">SIGN</button>
+                    <h3>READY TO GET STARTED?</h3>
+                    <button className="sign-up">SIGN UP</button>
                 </div>
             </div>
+            <AboutTrestle />
         </div>
     )
 }
