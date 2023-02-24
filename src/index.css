@@ -1,13 +1,87 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body{
+  background: #FFFFF0;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* about section */
+
+.about-img{
+  width: 1200px;
+  margin: 0 auto 82px;
+  padding-top: 48px;
+
+}
+
+.about-img img{
+  width: 100%;
+}
+
+.our-story-div{
+  background: #ADDDDF33;
+  padding: 60px 0 81px;
+  width: 1400px;
+
+ 
+
+}
+.our-story{
+  display: flex;
+  margin: 0 auto;
+  color: #0898A0;
+  margin-bottom: 74px;
+  padding-right: 96px;
+
+}
+
+.our-story img{
+  width: 556px;
+  height: 474px;
+  margin-right: 99px;
+  margin-left: 82px;
+}
+
+.story-writeup{
+  border: 1px solid red;
+
+}
+
+.story-writeup h1{
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.story-writeup p{
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 577px;
+  margin-right: 124px;
+}
+
+.get-in-touch{
+  display: flex;
+  
+  color: #0898A0;
+}
+
+.get-in-touch-list{
+  margin-left: 190px;
+  margin-right: 308px;
+
+}
+
+.get-in-touch-img{
+  width: 584px;
+  height: 474px;
+  margin-right: 96px;
+  border: 1px solid red;
+
+}
+
+.get-in-touch-img img{
+
+  /* margin-left: 308px; */
+  /* padding-right: 96px; */
 }
