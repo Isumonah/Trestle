@@ -1,7 +1,10 @@
-import AboutTrestle from "./AboutTrestle"
 import businessWomen from "../images/business-women.png"
 import groupLadies from "../images/group-ladies.png"
 import cynthia from "../images/cynthia-asorock.png"
+
+import AboutTrestle from "./AboutTrestle"
+import Footer from "./Footer"
+
 
 export default function About(){
     return(
@@ -55,6 +58,8 @@ export default function About(){
                 </div>
             </div>
             <AboutTrestle />
+            <Footer />
+            
         </div>
     )
 }

@@ -4,8 +4,10 @@ import kemiAdetiba from "../images/kemi-adetiba.png"
 import cynthiaAsorock from "../images/cynthia-asorock.png"
 import felixAndrade from "../images/felix-andrade.png"
 import adesuaTomid from "../images/adesua-tomid.png"
-
 import locationIcon from "../images/location-icon.png"
+
+import Footer from "./Footer"
+
 
 export default function FindInvestor(){
     return(
@@ -106,7 +108,8 @@ export default function FindInvestor(){
                             </label>
                             <button>SIGN UP</button>
                         </form>
-                    </div>
+                </div>
+                <Footer />
             </div>
         </div>
     )

@@ -117,6 +117,7 @@ body{
   margin-top: 24px;
   margin-bottom: 115px;
   font-size: 24px;
+  border: none;
 }
 
 /* about trestle */
@@ -150,6 +151,7 @@ body{
   line-height: 33.6px;
   color:#FFFFF0;
   background: #0898A0;
+  border: none;
 }
 
 .learn-more-button:hover,
@@ -510,8 +512,73 @@ body{
   border: none;
   align-self: center;
   font-size: 24px;
+}
 
+/* footer */
 
+.footer{
+  background: #0898A0;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFF0;
+  height: 385px;
+  width: 1440px;
+
+}
+
+.footer-explore-resources-contact{
+  display: flex;
+  margin: 0 605px 57px 126px;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.footer h3{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+  margin-bottom: 21px;
+}
+
+.footer p{
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.footer ul{
+  display: flex;
+}
+
+.footer li{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.copyright-terms,
+.copyright-div,
+.terms-div{
+  display: flex;
+}
+
+.copyright-terms p{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.copyright-div{
+  /* width: 500px; */
+  margin: 0 539px 0 92px;
+}
+
+.copyright-div p{
+  margin-left: 20px;
+}
+
+.terms-div{
+  margin-right: 161px;
+}
+
+.terms-div p:first-child{
+  margin-right: 23px;
 }
 
 

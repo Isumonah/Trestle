@@ -11,6 +11,7 @@ import healthPal from "../images/health-pal.png"
 
 import AboutTrestle from "./AboutTrestle"
 import Filter from "./Filter"
+import Footer from "./Footer"
 
 export default function Invest(){
     return(
@@ -98,6 +99,7 @@ export default function Invest(){
                 </div>
             </div>
             <AboutTrestle />
+            <Footer />
         </div>
     )
 }
