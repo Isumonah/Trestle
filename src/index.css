@@ -215,3 +215,155 @@ nav ul li a:hover {
 .footer-title {
   display: flex;
 }
+
+/*SignUp section*/
+
+.SignUp-container {
+  display: flex;
+  position: absolute;
+  width: 1440px;  
+  height: 1024px;
+  
+}
+/* Control the left side */
+.text-left {
+  justify-items: center;
+  align-items: center;
+  left: 0px;
+  background-color: #0898A0;
+  top: 0px;
+  width: 732px;
+  height: 1024px;
+  
+}
+.text-1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFF0;
+  opacity: 0,8;
+  font-family: "Hammersmith one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  width: 256px;
+  height: 43px;
+  left: 240px;
+  top: 394px;
+}
+.text-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFF0;
+  opacity: 0,8;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  width: 378px;
+  height: 68px;
+  left: 140px;
+  top: 445px;
+}
+.text-3 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  width: 194px;
+  height: 62px;
+  left: 250px;
+  top: 537px;
+  border-radius: 8px;
+  background-color: #FFFFF0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #0898A0;
+
+}
+/* Control the right side */
+
+.text-right {
+  left: 0px;
+  background-color: #FFFFF0;
+}
+.text-right-1 {
+  position: absolute;
+  width: 259px;
+  height: 43px;
+  left: 917px;
+  top: 123px;
+  font-family: "Hammersmith one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+.text-right-2 {
+  position: absolute;
+  width: 238px;
+  height: 56px;
+  left: 924px;
+  top: 174px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.4;
+}
+.title-1 {
+  position: absolute;
+  width: 284.27px;
+  height: 45px;
+  left: 808px;
+  top: 254px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+.text-right-3 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 306.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+::placeholder {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #746C6C;
+  opacity: 0.6;
+
+}
