@@ -19,6 +19,7 @@ export default function App(){
                     <Route path="/about" element={<About />} />
                     <Route path="/invest" element={<Invest/>} />
                     <Route path="find-investor" element={<FindInvestor />} />
+                    <Route path="event" element={<Event />} />
                     <Route path="success-stories" element={<SuccessStories />} />
                 </Routes>
             </Router>
