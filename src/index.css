@@ -8,7 +8,311 @@ body{
   font-family: 'Inter', sans-serif;
 }
 
-/* about section */
+/* home page */
+
+.home{
+  background: #FFFFFA;
+  width: 1440px;
+  border: 1px solid;
+}
+
+.connect-people{
+  background-image: url(./images/hourglass.png);
+  background-repeat: no-repeat;
+  height: 870px;
+  color: #0898A0;
+  padding: 202px 0 0 80px;
+  margin-top: 39px;
+}
+
+.connect-people h1{
+  font-size: 40px;
+  line-height: 48px;
+  width: 600px;
+  margin-bottom: 68px;
+}
+.connect-people p{
+  width: 800px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 129px;
+}
+
+.investor-owner{
+  background: #FFFFFA;
+  color: #0898A0;
+  font-family: "Roboto", sans-serif;
+  width: 389px;
+  height: 112px;
+  border-radius: 10px;
+  border: 1px solid 
+  #584E4E;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+  margin: 0 280px 19px 0;
+}
+
+.home-signup-button{
+  width: 203px;
+  height: 57px;
+  padding: 4px 40px;
+  background: #0898A0;
+  border-radius: 8px;
+  color: #FFFFF0;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.trestle-vision{
+  background: #0898A0;
+  height: 640px;
+  color: #FFFFFA;
+}
+
+.trestle-vision h1{
+    margin-bottom: 65px;
+    padding-top: 228px;
+    text-align: center;
+    font-size: 56px;
+    line-height: 67px;
+}
+
+.trestle-vision p{
+  width: 929px;
+  margin: 0 auto 130px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.featured-business-mogul h3{
+  margin: 162px 0 12px  137px;
+  font-size: 40px;
+  color: #0898A0;
+  line-height: 48px;
+}
+
+.business-mogul{
+  display: flex;
+  background: #ADDDDF33;
+}
+
+.business-mogul img{
+  width: 703x;
+  height: 585px;
+}
+
+.business-mogul h2{
+  font-size: 56px;
+  line-height: 67px;
+  color: #0898A0;
+}
+
+.adeola-name{
+  margin: 76px 0 18px 207px;
+}
+
+.silulo-name{
+  margin: 0 0 19px 94px;
+}
+
+.business-mogul p{
+  font-family: "Roboto", sans-serif;
+  color: #0898A0;
+  font-size: 20px;
+  line-height: 28px;
+  width: 617px;
+}
+
+.adeola-writeup{
+  margin: 92px 0 75px 92px; 
+}
+
+.silulo-writeup{
+  margin: 0 77px 61px 43px;
+}
+
+.business-mogul button{
+  margin: 0 0 76px 299px;
+  background: #FFFFFA;
+  color: #0898A0;
+  padding: 4px 40px;
+  width: 203px;
+  height: 57px;
+  font-size: 24px;
+  border: none;
+}
+
+.trestle-super-biz h3{
+  margin: 89.5px 0 21.5px 175px;
+}
+.super-biz{
+  display: flex;
+  background: #ADDDDF33;
+  color: #0898A0;
+
+}
+
+.super-biz img{
+  width: 703px;
+  height: 585px;
+  margin-bottom: 25px;
+}
+
+.super-biz-writeup h2{
+  font-size: 50px;
+  line-height: 67px;
+  margin: 81px 0 10px 70px;
+}
+
+.super-biz-writeup p{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 100px;
+  height: 364px;
+  width: 496px;
+}
+
+.perks{
+  height: 418px;
+  margin-top: 60px;
+  background: #0898A0;
+  color: #FFFFFA;
+}
+
+.perks h2{
+  font-size: 56px;
+  line-height: 67px;
+  margin-bottom: 38px;
+  padding-top: 37.5px;
+  text-align: center;
+
+}
+
+.perks p{
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 33.6px;
+  width: 1210px;
+  margin: 0 auto 37.5px;
+}
+
+
+.trestle-watchword-div{
+  color: #0898A0;
+
+}
+
+.trestle-watchword-div h2{
+  font-size: 56px;
+  line-height: 67px;
+  margin: 60px auto 151px; 
+  width: 650px; 
+}
+
+.circles{
+  display: flex;
+  justify-content: center;
+}
+
+.circles img:nth-child(-n+2){
+  margin-right: 85px;
+  width: 300px;
+  height: 300px;
+}
+
+.trestle-values{
+  display: flex;
+  font-size: 24px;
+  line-height: 33.6px;
+}
+
+.trestle-value h5{
+  width: 128px;
+  margin: 98px 0 26px 80px;
+}
+
+.trestle-values:nth-child(1){
+  border: 1px solid red; 
+
+}
+
+.trustworthy{
+  width: 478px;
+  margin-left: 115px;
+  margin-right: 36px;
+  font-family: "Roboto", sans-serif;
+}
+.trustworthy h5{
+  margin-left: calc(271px - 115px);
+}
+
+.trestle-value:nth-child(n+2){
+  width: 359px;
+}
+
+.trestle-home-form{
+  margin-top: 175px ;
+}
+
+.trestle-home-form h1{
+  font-size: 56px;
+  color: #0898A0;
+  line-height: 67px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.trestle-home-form form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trestle-home-form p{
+  width: 192px;
+  height: 81px;
+  font-size: 24px;
+  background: #0898A0;
+  color: #FFFFFA;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(524px - 345px);
+}
+
+.trestle-home-form input{
+  width: 550px;
+  height: 83px;
+  border-radius: 9px;
+  color: #746C6C;
+  border: 2.5px solid #0898A0;
+  padding-left: 30px;
+  margin: 15px 0;
+  line-height: 22px;
+  opacity: 0.6;
+  font-family: "Roboto", sans-serif;
+}
+
+.trestle-home-form button{
+  width: 510px;
+  height: 108px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #0898A0;
+  border:  1px solid #584E4E;
+  color: #FFFFFA;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 400px;
+}
+
+
+/* about page */
 
 
 .about-img-div{
@@ -581,6 +885,5 @@ body{
   margin-right: 23px;
 }
 
-
-
+ 
 
