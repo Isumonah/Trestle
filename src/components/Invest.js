@@ -12,10 +12,13 @@ import healthPal from "../images/health-pal.png"
 import AboutTrestle from "./AboutTrestle"
 import Filter from "./Filter"
 import Footer from "./Footer"
+import Nav from "./Nav"
 
 export default function Invest(){
     return(
-        <div className="invest">
+        <div className="invest" id="invest">
+            <div className="invest-nav">
+            <Nav /></div>
             <div className="invest-heading">
                 <h1>Investment Opportunities</h1>
                 <button className="funded-portfolio">

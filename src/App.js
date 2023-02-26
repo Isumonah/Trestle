@@ -5,24 +5,24 @@ import Invest from "./components/Invest"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import SuccessStories from "./components/SuccessStories"
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Events from "./components/Events"
+import Nav from "./components/Nav"
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 
 
 export default function App(){
     return(
-        <div>
-            {/* <BrowserRouter>
+            <Router>
                 <Routes>
-                    <Route exact path="/" element={<About />} />
-                    <Route exact path="/invest" element={<Invest />} />
-                    <Route exact path="/find-investor" element={<FindInvestor />} />
+                    <Route exact path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/invest" element={<Invest/>} />
+                    <Route path="find-investor" element={<FindInvestor />} />
+                    <Route path="success-stories" element={<SuccessStories />} />
                 </Routes>
-            </BrowserRouter> */}
-            <SuccessStories />
-           
-            
-        </div>
+            </Router>
+          
         
     )
 }

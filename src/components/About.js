@@ -3,12 +3,15 @@ import groupLadies from "../images/group-ladies.png"
 import cynthia from "../images/cynthia-asorock.png"
 
 import AboutTrestle from "./AboutTrestle"
+import Nav from "./Nav"
 import Footer from "./Footer"
 
 
 export default function About(){
     return(
-        <div className="about container">
+        <div className="about">
+            <div className="about-nav">
+            <Nav /></div>
             <div className="about-img-div">
                 <div className="about-img">
                     <img src={businessWomen} alt="business-women" />

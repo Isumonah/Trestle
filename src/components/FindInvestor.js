@@ -6,12 +6,15 @@ import felixAndrade from "../images/felix-andrade.png"
 import adesuaTomid from "../images/adesua-tomid.png"
 import locationIcon from "../images/location-icon.png"
 
+import Nav from "./Nav"
 import Footer from "./Footer"
 
 
 export default function FindInvestor(){
     return(
-        <div className="find-investor">
+        <div className="find-investor" id="find-investor">
+            <div className="find-investor-nav">
+            <Nav /></div>
             <div className="search-investor">
                 <input placeholder="Search" />
                 <div className="search-icon">

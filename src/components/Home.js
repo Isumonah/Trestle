@@ -3,10 +3,13 @@ import siluloUlutho from "../images/silulo-ulutho.png"
 import circle from "../images/circle.png"
 
 import Footer from "./Footer"
+import Nav from "./Nav"
 
 export default function Home(){
     return(
-        <div className="home">
+        <div className="home" id="home">
+            <div className="home-nav">
+            <Nav /></div>
             <div className="connect-people">
                 <h1>Connecting Business owners with potential Investors</h1>
                 <p>

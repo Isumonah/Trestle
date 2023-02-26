@@ -8,12 +8,94 @@ body{
   font-family: 'Inter', sans-serif;
 }
 
+
+/*Navbar section */
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 1440px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFF0;
+}
+
+.trestle-link a{
+    width: 130px;
+    height: 43px;
+    font-weight: 600;
+    /* font-family: "Hammersmith One", sans-serif; */
+    margin-left: 80px;
+    
+}
+
+.trestle-link a{
+  color: #0898A0;
+  font-size: 36px;
+  line-height: 43.2px;
+}
+
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 145px;
+  margin-right: 47px;
+  
+}
+
+.nav-pages li:not(:first-child) {
+  margin-left: 32px;
+}
+
+.nav-pages li a{
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 33.6px;
+  color: #908989;
+  text-decoration: none;
+}
+
+.nav-pages li a:hover {
+  color: #0898A0;
+}
+
+.login-signup{
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-login {
+  color: #0898A0;
+  padding: 10px;
+  border-radius: 8px;
+  width: 108px;
+  height: 48px;
+  border: 1px solid #0898A0;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.nav-signup {
+  background-color: #0898A0;
+  color:#FFFFF0;
+  width: 108px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+}
+
+
 /* home page */
 
 .home{
   background: #FFFFFA;
   width: 1440px;
   border: 1px solid;
+}
+.home-nav{
+  margin-top: 48px;
 }
 
 .connect-people{
@@ -63,6 +145,7 @@ body{
   color: #FFFFF0;
   font-size: 24px;
   font-family: "Inter", sans-serif;
+  border: none;
 }
 
 .trestle-vision{
@@ -314,6 +397,9 @@ body{
 
 /* about page */
 
+.about-nav{
+
+margin-top: 42px;}
 
 .about-img-div{
   box-shadow: 4px 4px rgba(0, 0, 0, 0.25)
@@ -516,6 +602,9 @@ body{
 .invest{
   width: 1440px;
 }
+.invest-nav{
+  margin-top: 46px;
+}
 
 .invest-heading{
   display: flex;
@@ -605,6 +694,10 @@ body{
 
 /* find-investor */
 
+.find-investor-nav{
+  margin-top: 48px;
+}
+
 .search-investor{
   margin: 56px 359px 72px 94px;
   display: flex;
@@ -625,8 +718,8 @@ body{
 }
 
 .search-icon{
-  width: 99px;
-  height: 69px;
+  width: 105px;
+  height: 70px;
   border-radius: 9px;
   background: #0898A0;
   text-align: center;
@@ -892,6 +985,11 @@ body{
 .success-stories{
   padding-left: 80px;
 }
+
+.success-story-nav{
+  margin-top: 57px;
+}
+
 .success-story h3{
   font-size: 40px;
   line-height: 48px;

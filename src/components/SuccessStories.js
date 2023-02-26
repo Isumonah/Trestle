@@ -1,9 +1,12 @@
+import Nav from "./Nav";
 import Footer from "./Footer";
 
 export default function SuccessStories(){
     return(
-        <>
+        <div id="success-stories">
             <div className="success-stories">
+            <div className="success-story-nav">
+            <Nav /></div>
                 <div className="success-story">
                 <h3>NEW</h3> 
                 <div className="stories">
@@ -101,7 +104,7 @@ export default function SuccessStories(){
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
         
     )
 }
