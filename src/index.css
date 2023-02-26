@@ -173,7 +173,7 @@ nav ul li a:hover {
   padding: 10px;
   border-radius: 8px;
 }
-/*login and signUp write up*/
+/*login and signUp Nav Bar write up*/
 .login button {
   width: 83px;
   height: 48px;
@@ -216,7 +216,7 @@ nav ul li a:hover {
   display: flex;
 }
 
-/*SignUp section*/
+/*SignUp form section*/
 
 .SignUp-container {
   display: flex;
@@ -291,7 +291,7 @@ nav ul li a:hover {
   color: #0898A0;
 
 }
-/* Control the right side */
+/* Control the right side . Title represents the heading, full name, email address etc. while text-right represents the input sections*/
 
 .text-right {
   left: 0px;
@@ -467,4 +467,278 @@ nav ul li a:hover {
   line-height: 140%;
   color: #FFFFF0;
   background-color: inherit;
+}
+/*SignIn form section*/
+
+.SignIn-container {
+  display: flex;
+  position: absolute;
+  width: 1440px;  
+  height: 1024px; 
+}
+.Trestle-logo {
+  position: absolute;
+  width: 130px;
+  height: 43px;
+  left: 100px;
+  top: 63px;
+  font-family: "Hammersmith one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  color: #0898A0;
+}
+.text-left-SignIn {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  left: 0px;
+  background-color: #FFFFF0;
+  top: 0px;
+  width: 708px;
+  height: 1024px;
+    
+  
+}
+.text-SignIn-1 {
+  position: absolute;
+  width: 289px;
+  height: 43px;
+  left: 224px;
+  top: 165px;
+  font-family: "Hammersmith one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0898A0;
+}
+.circle-container {
+  display: flex;
+  justify-content: center;
+}
+.circle-1 {
+  position: absolute;
+  width: 52.36px;
+  height: 52.36px;
+  left: 258.97px;
+  top: 228.27px;
+  border: 1px solid #0898A0;
+  border-radius: 50%;
+  background-color: #FFFFF0;
+  margin: 0 5px;
+}
+.circle-1-logo {
+  box-sizing: border-box;
+  position: absolute;
+  left: 34.21%;
+  right: 79.85%;
+  top: 35.28%;
+  bottom: 74.56%;
+}
+.circle-2 {
+  position: absolute;
+  width: 52.36px;
+  height: 52.36px;
+  left: 335.82px;
+  top: 228.27px;
+  border: 1px solid #0898A0;
+  border-radius: 50%;
+  background-color: #FFFFF0;
+  margin: 0 5px;
+}
+.circle-2-logo {
+  box-sizing: border-box;
+  position: absolute;
+  left: 32.21%;
+  right: 79.85%;
+  top: 35.28%;
+  bottom: 74.56%;
+}
+.circle-3 {
+  position: absolute;
+  width: 52.36px;
+  height: 52.36px;
+  left: 412.67px;
+  top: 228.27px;
+  border: 1px solid #0898A0;
+  border-radius: 50%;
+  background-color: #FFFFF0;
+  margin: 0 5px;
+}
+.circle-3-logo {
+  box-sizing: border-box;
+  position: absolute;
+  left: 34.21%;
+  right: 79.85%;
+  top: 35.28%;
+  bottom: 74.56%;
+}
+.text-SignIn-2 {
+  position: absolute;
+  width: 230px;
+  height: 28px;
+  left: 254px;
+  top: 299px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0898A0;
+  opacity: 0.4;
+}
+
+.title-SignIn-1 {
+  position: absolute;
+  width: 284.27px;
+  height: 45px;
+  left: 100px;
+  top: 418px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+.SignIn-box-1 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 102.35px;
+  top: 471.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-SignIn-3 {
+  position: absolute;
+  width: 284.27px;
+  height: 45px;
+  left: 100px;
+  top: 570px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+.SignIn-box-2 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 102.35px;
+  top: 617.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-SignIn-4 {
+  position: absolute;
+  width: 129px;
+  height: 22px;
+  left: 490px;
+  top: 712px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.5;
+}
+.button-login-SignIn {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  width: 194px;
+  height: 62px;
+  left: 239px;
+  top: 734px;
+  border-radius: 8px;
+  background-color: #0898A0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFF0;
+}
+/*controls the right section of the sign in page*/
+.text-right-SignIn {
+  left: 0px;
+  background-color: #0898A0;
+  width: 708px;
+  height: 1024px;
+}
+.text-right-SignIn-1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFF0;
+  opacity: 0,8;
+  font-family: "Hammersmith one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  width: 202px;
+  height: 43px;
+  left: 985px;
+  top: 375px;
+}
+.text-right-SignIn-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFF0;
+  opacity: 0,8;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  width: 372px;
+  height: 68px;
+  left: 900px;
+  top: 426px;
+}
+.text-right-SignIn-3 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  width: 194px;
+  height: 62px;
+  left: 989px;
+  top: 518px;
+  border-radius: 8px;
+  background-color: #FFFFF0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #0898A0;
+
 }
