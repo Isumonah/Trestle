@@ -22,8 +22,8 @@ function SignUp() {
                 <input className="text-right-5" type="password" placeholder="Enter Password" required></input>
                 <div className="title-4">Confirm Password</div>
                 <input className="text-right-6" type="password" placeholder="Re-Enter Password" required></input>
-                <div className="button-submit"></div>
-                <button className="SignUp-button">Sign Up</button>
+                <div className="button-submit"> <button className="SignUp-button">Sign Up</button> </div>
+               
                </div>
             </div>
          </form>

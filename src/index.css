@@ -367,3 +367,104 @@ nav ul li a:hover {
   opacity: 0.6;
 
 }
+.title-2 {
+  position: absolute;
+  width: 154px;
+  height: 34px;
+  left: 810.35px;
+  top: 407.98px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+.text-right-4 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 449.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-3 {
+  position: absolute;
+  width: 107px;
+  height: 34px;
+  left: 810.35px;
+  top: 539.45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+.text-right-5 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 581.37px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-4 {
+  position: absolute;
+  width: 204px;
+  height: 34px;
+  left: 810.35px;
+  top: 678.64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+.text-right-6 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 720.57px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.button-submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  position: absolute;
+  width: 193px;
+  height: 62px;
+  left: 950px;
+  top: 836px;
+  background-color: #0898A0;
+  border-radius: 8px;
+  
+}
+.SignUp-button {
+  width: 82px;
+  height: 34px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFF0;
+  background-color: inherit;
+}
