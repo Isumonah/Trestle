@@ -885,5 +885,67 @@ body{
   margin-right: 23px;
 }
 
+/* events */
+
+/* success stories*/
+
+.success-stories{
+  padding-left: 80px;
+}
+.success-story h3{
+  font-size: 40px;
+  line-height: 48px;
+  color: #5ABAC0;
+  margin: 62px 0 24px;
+}
+
+.stories{
+  background: #83CBCF;
+  width: 1280px;
+  height: 216px;
+  padding-left: 38px;
+  margin-bottom: 24px;
+  color: #FFFFF0;
+  font-family: "Roboto", sans-serif;
+}
+
+.stories p{
+  font-size: 24px;
+  line-height: 33.6px;
+  width: 794px;
+  height: 117px;
+  margin-bottom: 8px;
+  padding-top: 37px;
+}
+
+.story{
+  display: flex;
+}
+
+.story button{
+  margin: 81px 0 0 251px;
+  background: #FFFFF0;
+  color: #0898A0;
+  width: 113px;
+  height: 54px;
+  font-size: 24px;
+  line-height: 33.6px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.stories h6{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.last-week h3,
+.last-month h3{
+  margin: 44px 0 24px;
+}
+.last-month .stories:last-child{
+  margin-bottom: 67px;
+}
  
 

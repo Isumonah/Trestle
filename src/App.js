@@ -4,6 +4,7 @@ import FindInvestor from "./components/FindInvestor"
 import Invest from "./components/Invest"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
+import SuccessStories from "./components/SuccessStories"
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -18,7 +19,7 @@ export default function App(){
                     <Route exact path="/find-investor" element={<FindInvestor />} />
                 </Routes>
             </BrowserRouter> */}
-            <Home />
+            <SuccessStories />
            
             
         </div>
