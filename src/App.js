@@ -4,6 +4,7 @@ import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
+import BusinessOwner from './components/BusinessOwner';
 
 export default function App(){
     return(
@@ -11,8 +12,9 @@ export default function App(){
             {/* <Nav />
             <About />
             <Footer />
-            <SignUp /> */}
-            <SignIn />
+            <SignUp />
+            <SignIn /> */}
+            <BusinessOwner />
         </div>  
           
     ) 

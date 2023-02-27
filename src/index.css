@@ -742,3 +742,74 @@ nav ul li a:hover {
   color: #0898A0;
 
 }
+/*Business Owner Form*/
+
+.Container-BusinessOwner {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  background-color: #FFFFFA;
+}
+.BusinessOwner-contents {
+  width: 20%;
+  justify-content: space-around;
+}
+.BusinessOwner-1 {
+  width: 130px;
+  height: 43px;
+  margin-left: 600px;
+  padding-top: 40px;
+  font-family: 'Hammersmith One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  color: #0898A0;
+}
+.BusinessOwner-2 {
+  width: 448px;
+  height: 48px;
+  padding-top: 10%;
+  margin-left: 450px;
+  font-family: 'Hammersmith One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  color: #0898A0; 
+}
+.BusinessOwner-3 {
+  width: 1073px;
+  height: 28px;
+  padding-top: 10%;
+  margin-left: 230px;
+  padding-bottom: 20%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #0898A0;
+}
+.BusinessOwner-4 {
+  width: 846px;
+  height: 89px;
+  margin-left: 230px;
+  border: 3px solid #0898A0;
+  border-radius: 10px;
+  color: #0898A0;
+
+}
+.BusinessOwner-4-writeup {
+  position: absolute;
+  width: 99px;
+  height: 34px;
+  left: 650px;
+  top: 300px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #0898A0;
+}
