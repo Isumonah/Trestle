@@ -980,10 +980,207 @@ margin-top: 42px;}
 
 /* events */
 
+.events-img{
+  width: 1283px;
+  height: 655px;
+  margin: 48px auto 72px;
+  background-image: url(./images/events-img.png);
+  padding-top: 189px;
+  background-repeat: no-repeat;
+}
+
+.events-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.events-info{
+  width: 831px;
+  height: 393px;
+  border-radius: 10px;
+  background: #ADDDDF33;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next-event-button{
+  width: 264px;
+  height: 63px;
+  border-radius: 4px;
+  padding: 10px 40px;
+  background: #0898A0;
+  color: #FFFFF0;
+  font-size: 36px;
+  line-height: 43.2px;
+  border: none;
+  margin: 81px 0 24px;
+
+
+}
+
+.events-info h1{
+  font-size: 56px;
+  line-height: 67.2px;
+  color: #0898A0;
+  margin-bottom: 17px;
+  width: 538px;
+  text-align: center;
+}
+
+.events-info p{
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  line-height: 33.6px;
+  color: #584E4E;
+  font-weight: 600;
+  width: 601px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.events-info span{
+  color: #0898A0;
+}
+
+.get-ticket{
+  background: #0898A0;
+  border-radius: 8px;
+  width: 223px;
+  height: 69px;
+  color: #FFFFF0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 33.6px;
+  padding: 18px 12px;
+  font-size: 24px;
+  border: none;
+}
+
+.upcoming-events{
+  margin-left: 189px;
+ 
+}
+
+.all-upcoming-events{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.upcoming-event{
+  margin: 0 138px 57px 0;
+}
+
+
+.upcoming-events-button{
+  height: 54px;
+  border-radius: 4px;
+  padding: 10px 40px;
+  border: none;
+  background: #0898A0;
+  font-size: 24px;
+  line-height: 33.6px;
+  color: #FFFFF0;
+  margin-bottom: 57px;
+
+}
+
+.upcoming-event h4{
+  font-size: 36px;
+  color: #0898A0;
+  line-height: 43.2px;
+  margin-bottom: 24px;
+}
+
+.upcoming-event p{
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #746C6C;
+  margin-bottom: 32px;
+  width: 408px;
+}
+
+.upcoming-event a{
+  color: #0898A0;
+}
+
+.events-date-div{
+  display: flex;
+  justify-content: space-between;
+  width: 408px;
+}
+
+.events-date-div p{
+  width: 143.7px;
+  color: #584E4E;
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+
+}
+
+.upcoming-event-get-ticket{
+  height: 44px;
+  border-radius: 8px;
+  background: #0898A0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #FFFFF0;
+  padding: 11px;
+  border: none;
+}
+.invest-signup{
+  margin-top: calc(96px - 57px);
+  margin-bottom: 67px;
+}
+
+.invest-signup h4{
+  font-size: 36px;
+  line-height: 43.2px;
+  color: #0898A0;
+  margin-bottom: 15px;
+  margin-left: calc(611px - 189px);
+
+}
+.invest-signup p{
+  font-size: 24px;
+  line-height: 34px;
+  font-family: "Roboto", sans-serif;
+  color: #584E4E;
+  width: 285px;
+  margin-left: calc(570px - 189px);
+}
+.invest-signup span{
+  color: #0898A0;
+}
+
+.invest-signup button{
+  width: 203px;
+  height: 62px;
+  border-radius: 8px;
+  background: #0898A0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 33.6px;
+  border: none;
+  color: #FFFFF0;
+  margin-left: calc(585px - 189px);
+  margin-top: 48px;
+
+
+}
+
+
+
 /* success stories*/
 
-.success-stories{
+.the-success-stories{
   padding-left: 80px;
+}
+
+.success-footer{
+  padding: 0;
 }
 
 .success-story-nav{

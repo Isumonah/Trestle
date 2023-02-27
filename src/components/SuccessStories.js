@@ -4,9 +4,9 @@ import Footer from "./Footer";
 export default function SuccessStories(){
     return(
         <div id="success-stories">
-            <div className="success-stories">
             <div className="success-story-nav">
             <Nav /></div>
+            <div className="the-success-stories">
                 <div className="success-story">
                 <h3>NEW</h3> 
                 <div className="stories">
