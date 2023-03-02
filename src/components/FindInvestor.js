@@ -107,7 +107,7 @@ export default function FindInvestor(){
                             </label>
                             <label>
                                 Confirm Password:
-                                <input placeholder="Re enter password" />
+                                <input placeholder="Re-enter password" />
                             </label>
                             <button>SIGN UP</button>
                         </form>

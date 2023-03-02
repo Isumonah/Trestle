@@ -3,11 +3,15 @@
   padding: 0;
 }
 body{
-  /* work on font */
   background: #FFFFF0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
+
+button:hover,
+button:focus{
+  transform: scale(1.1);
+}
 
 /*Navbar section */
 
@@ -23,10 +27,8 @@ nav {
 .trestle-link a{
     width: 130px;
     height: 43px;
-    font-weight: 600;
-    /* font-family: "Hammersmith One", sans-serif; */
+    font-weight: 400;
     margin-left: 80px;
-    
 }
 
 .trestle-link a{
@@ -35,13 +37,15 @@ nav {
   line-height: 43.2px;
 }
 
+.trestle-link a:hover{
+  color:#9d8672;
+}
 
 nav ul {
   display: flex;
   list-style-type: none;
   margin-left: 145px;
   margin-right: 47px;
-  
 }
 
 .nav-pages li:not(:first-child) {
@@ -54,6 +58,10 @@ nav ul {
   line-height: 33.6px;
   color: #908989;
   text-decoration: none;
+}
+
+.nav-pages-link[aria-current="page"]{
+  color: #0898A0;
 }
 
 .nav-pages li a:hover {
@@ -84,314 +92,356 @@ nav ul {
   border-radius: 8px;
   font-size: 20px;
   border: none;
+  
 }
+
+.nav-login a,
+.nav-signup a{
+  text-decoration: none;
+  
+}
+
+
+
+.nav-login a:visited{
+  color: #0898A0;
+}
+
+.nav-signup a:visited{
+  color:#FFFFF0;
+}
+
+
+
+/* about trestle */
+.about-trestle{
+  display: flex;
+  color: #0898A0;
+}
+
+.about-trestle-writeup h3{
+  font-size: 24px;
+  margin-top: 28px;
+  margin-bottom: 14px;
+  font-weight: 400;
+}
+.about-trestle-writeup{
+  margin-left: 113px;
+  margin-right: 311px;
+}
+
+.about-trestle-writeup p{
+  width: 456px;
+  height: 168px;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.learn-more-button{
+  width: 264px;
+  height: 62px;
+  font-size: 24px;
+  line-height: 33.6px;
+  color:#FFFFF0;
+  background: #0898A0;
+  border: none;
+}
+
+
+
+.about-trestle-img{
+  width: 413px;
+  height: 323px;
+  margin: 14px 147px 84px 0;
+}
+
+.about-trestle-img img{
+  width: 100%;
+}
+
+
 
 
 /* home page */
 
 .home{
-  background: #FFFFFA;
-  width: 1440px;
+  background: #FFFFF0;
+  max-width: 1440px;
+  width: 100%;
   border: 1px solid;
 }
 .home-nav{
-  margin-top: 48px;
+  margin-top: 52px;
 }
 
 .connect-people{
   background-image: url(./images/hourglass.png);
   background-repeat: no-repeat;
-  height: 870px;
+  height: 754px;
+  width: 1281px;
   color: #0898A0;
-  padding: 202px 0 0 80px;
-  margin-top: 39px;
+  margin: 68px auto 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .connect-people h1{
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 56px;
+  line-height: 67.2px;
   width: 600px;
-  margin-bottom: 68px;
+  margin: 0 0 5px 488px;
+  font-weight: 400;
 }
-.connect-people p{
-  width: 800px;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 129px;
-}
-
-.investor-owner{
-  background: #FFFFFA;
-  color: #0898A0;
-  font-family: "Roboto", sans-serif;
-  width: 389px;
-  height: 112px;
-  border-radius: 10px;
-  border: 1px solid 
-  #584E4E;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 33.6px;
-  margin: 0 280px 19px 0;
+.connect-people h2{
+  width: 664px;
+  font-size: 48px;
+  line-height: 57.6px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  margin-left: 240px;
+  text-align: center;
 }
 
-.home-signup-button{
-  width: 203px;
+
+.join-community-button{
   height: 57px;
-  padding: 4px 40px;
+  width: 264px;
   background: #0898A0;
   border-radius: 8px;
   color: #FFFFF0;
   font-size: 24px;
-  font-family: "Inter", sans-serif;
+  border: none;
+  line-height: 28.8px;
+  margin-left: 443px;
   border: none;
 }
 
-.trestle-vision{
-  background: #0898A0;
-  height: 640px;
-  color: #FFFFFA;
+.home-owner-investor{
+  display: flex;
+  background: #ADDDDF33;
+  height: 692px;
 }
 
-.trestle-vision h1{
-    margin-bottom: 65px;
-    padding-top: 228px;
+.home-owner,
+.home-investor{
+  width: 708px;
+  height: 458px;
+}
+
+.home-owner{
+  background: #FFFFF0;
+  color: #31A9B0;
+  border: 1px solid #0898A0;
+  margin: 63px 0 171px 79px;
+  margin-right: calc(-170px + 31px);
+  z-index: 1;
+  padding-left: 88px;
+}
+
+.home-owner-investor h4{
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 400;
+}
+
+
+.home-owner-investor p{
+  width: 422px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  line-height: 33.6px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.home-owner h4{
+  margin: 72px 0 24px;
+}
+
+
+.home-investor{
+  background: #0898A0;
+  color: #FFFFF0;
+  margin: 130px 80px 74px 0;
+  padding-left: 170px;
+}
+
+.home-investor h4{
+  margin: 74px 0 24px;
+}
+
+.home-owner-investor button{
+  width: 169px;
+  height: 62px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  line-height: 33.6px;
+  margin-top: 84px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.home-owner button{
+  background: #0898A0;
+  color: #FFFFF0;
+  margin-top: 84px;
+  margin-left: calc(436px - 88px);
+}
+
+.home-investor button{
+  background: #FFFFF0;
+  color: #0898A0;
+  margin-left: calc(381px - 170px);
+}
+
+.trestle-vision{
+  color: #0898A0;
+  background: #FFFFF0;
+}
+
+.trestle-vision h3{
+    margin: 80px auto 17px;
     text-align: center;
-    font-size: 56px;
-    line-height: 67px;
+    font-size: 40px;
+    line-height: 48px;
+    width: 367px;
+    font-weight: 400;
+
 }
 
 .trestle-vision p{
-  width: 929px;
-  margin: 0 auto 130px;
-  font-size: 20px;
+  width: 819px;
+  margin: 0 auto 34px;
+  font-size: 24px;
   font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 33.6px;
+
 }
 
+.trestle-corner{
+  background: #ADDDDF33;
+}
 
-
-.featured-business-mogul h3{
-  margin: 162px 0 12px  137px;
+.trestle-corner-title{
+  margin: 0 auto;
+  padding-top: 139px;
   font-size: 40px;
   color: #0898A0;
   line-height: 48px;
+  width: 304px;
+  font-weight: 400;
 }
 
 .business-mogul{
   display: flex;
-  background: #ADDDDF33;
+
 }
 
 .business-mogul img{
-  width: 703x;
+  width: 623px;
   height: 585px;
 }
 
-.business-mogul h2{
-  font-size: 56px;
-  line-height: 67px;
+.adeola img{
+  margin: 95px 64px 0 89px;
+}
+
+.business-mogul h3{
   color: #0898A0;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
 }
 
 .adeola-name{
-  margin: 76px 0 18px 207px;
-}
-
-.silulo-name{
-  margin: 0 0 19px 94px;
+  margin: 136px 0 15px;
+  color: #0898A0;
+  font-size: 40px;
+  line-height: 48px;
 }
 
 .business-mogul p{
   font-family: "Roboto", sans-serif;
   color: #0898A0;
-  font-size: 20px;
-  line-height: 28px;
-  width: 617px;
-}
-
-.adeola-writeup{
-  margin: 92px 0 75px 92px; 
-}
-
-.silulo-writeup{
-  margin: 0 77px 61px 43px;
-}
-
-.business-mogul button{
-  margin: 0 0 76px 299px;
-  background: #FFFFFA;
-  color: #0898A0;
-  padding: 4px 40px;
-  width: 203px;
-  height: 57px;
-  font-size: 24px;
-  border: none;
-}
-
-.trestle-super-biz h3{
-  margin: 89.5px 0 21.5px 175px;
-}
-.super-biz{
-  display: flex;
-  background: #ADDDDF33;
-  color: #0898A0;
-
-}
-
-.super-biz img{
-  width: 703px;
-  height: 585px;
-  margin-bottom: 25px;
-}
-
-.super-biz-writeup h2{
-  font-size: 50px;
-  line-height: 67px;
-  margin: 81px 0 10px 70px;
-}
-
-.super-biz-writeup p{
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  margin-left: 100px;
-  height: 364px;
-  width: 496px;
-}
-
-.perks{
-  height: 418px;
-  margin-top: 60px;
-  background: #0898A0;
-  color: #FFFFFA;
-}
-
-.perks h2{
-  font-size: 56px;
-  line-height: 67px;
-  margin-bottom: 38px;
-  padding-top: 37.5px;
-  text-align: center;
-
-}
-
-.perks p{
-  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 33.6px;
-  width: 1210px;
-  margin: 0 auto 37.5px;
+  font-weight: 400;
 }
 
-
-.trestle-watchword-div{
-  color: #0898A0;
-
+.adeola p{
+  width: 528px;
 }
 
-.trestle-watchword-div h2{
-  font-size: 56px;
-  line-height: 67px;
-  margin: 60px auto 151px; 
-  width: 650px; 
+.tolase{
+  margin: 301px 0 0 186px;
 }
 
-.circles{
-  display: flex;
-  justify-content: center;
+.tolase h3{
+  margin-top: calc(333px - 301px);
 }
 
-.circles img:nth-child(-n+2){
-  margin-right: 85px;
-  width: 300px;
-  height: 300px;
+.tolase p{
+  width: 490px;
+  margin: 18px 59px 154px 0;
 }
 
-.trestle-values{
-  display: flex;
-  font-size: 24px;
-  line-height: 33.6px;
-}
-
-.trestle-value h5{
-  width: 128px;
-  margin: 98px 0 26px 80px;
-}
-
-.trestle-values:nth-child(1){
-  border: 1px solid red; 
-
-}
-
-.trustworthy{
-  width: 478px;
-  margin-left: 115px;
-  margin-right: 36px;
-  font-family: "Roboto", sans-serif;
-}
-.trustworthy h5{
-  margin-left: calc(271px - 115px);
-}
-
-.trestle-value:nth-child(n+2){
-  width: 359px;
-}
-
-.trestle-home-form{
-  margin-top: 175px ;
-}
-
-.trestle-home-form h1{
-  font-size: 56px;
-  color: #0898A0;
-  line-height: 67px;
-  text-align: center;
-  margin-bottom: 150px;
-}
-.trestle-home-form form{
+.carousel{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.trestle-home-form p{
-  width: 192px;
-  height: 81px;
-  font-size: 24px;
-  background: #0898A0;
-  color: #FFFFFA;
-  border-radius: 8px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(524px - 345px);
+  padding-bottom: 66px;
 }
 
-.trestle-home-form input{
-  width: 550px;
-  height: 83px;
-  border-radius: 9px;
-  color: #746C6C;
-  border: 2.5px solid #0898A0;
-  padding-left: 30px;
-  margin: 15px 0;
-  line-height: 22px;
-  opacity: 0.6;
+.carousel-btns img:nth-child(n+2){
+  margin-left: 32px;
+}
+
+.carousel-btns{
+  margin-bottom: 24px;
+}
+
+.carousel p{
   font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0898A0;
+
 }
 
-.trestle-home-form button{
-  width: 510px;
-  height: 108px;
-  padding: 10px;
-  border-radius: 10px;
-  background: #0898A0;
-  border:  1px solid #584E4E;
-  color: #FFFFFA;
-  font-size: 36px;
-  line-height: 43px;
-  margin-bottom: 400px;
+.home-about-trestle-div{
+  padding: 36px 0 0 88px;
+  margin: 0;
+}
+
+.about-trestle-home{
+  padding: 54px 0 133px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  max-width: 1274px;
+}
+
+
+.about-trestle-home-writeup{
+  margin-right: 288px;
+  
+}
+
+.about-trestle-home h3{
+  margin-top: 0;
+  padding: 0;
+}
+
+.about-trestle-home button{
+  margin-bottom: 0;
+}
+
+
+.about-trestle-home-img{
+  margin: 0;
 }
 
 
@@ -443,6 +493,7 @@ margin-top: 42px;}
   margin-top: 74px;
   margin-bottom: 24px;
   line-height: 48px;
+  font-weight: 400;
 }
 
 .story-writeup p{
@@ -450,6 +501,7 @@ margin-top: 42px;}
   margin-bottom: 25px;
   width: 577px;
   margin-right: 124px;
+  font-family: "Roboto", sans-serif;
 }
 
 /* get in touch */
@@ -469,6 +521,7 @@ margin-top: 42px;}
   font-size: 40px;
   line-height: 48px;
   margin-bottom: 24px;
+  font-weight: 400;
 }
 
 .get-in-touch-list p{
@@ -476,6 +529,8 @@ margin-top: 42px;}
   margin-right: 328px;
   line-height: 22.4px;
   width: 240px;
+  font-family: "Roboto", sans-serif;
+
 
 }
 
@@ -495,6 +550,7 @@ margin-top: 42px;}
   font-size: 36px;
   color: #0898A0;
   line-height: 43.2px;
+  font-weight: 400;
 }
 
 .sign-up-div button{
@@ -510,54 +566,14 @@ margin-top: 42px;}
   border: none;
 }
 
-/* about trestle */
-.about-trestle{
-  display: flex;
-  color: #0898A0;
+.sign-up-div a{
+  text-decoration: none;
 }
 
-.about-trestle-writeup h3{
-  font-size: 24px;
-  margin-top: 28px;
-  margin-bottom: 14px;
-}
-.about-trestle-writeup{
-  margin-left: 113px;
-  margin-right: 311px;
-}
 
-.about-trestle-writeup p{
-  width: 456px;
-  height: 168px;
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 14px;
-}
 
-.learn-more-button{
-  width: 264px;
-  height: 62px;
-  font-size: 24px;
-  line-height: 33.6px;
-  color:#FFFFF0;
-  background: #0898A0;
-  border: none;
-}
-
-.learn-more-button:hover,
-.learn-more-button:focus{
-  background: #FFFFF0;
-  color: #0898A0;
-}
-
-.about-trestle-img{
-  width: 413px;
-  height: 323px;
-  margin: 14px 147px 84px 0;
-}
-
-.about-trestle-img img{
-  width: 100%;
+.sign-up-div a:visited{
+  color: #FFFFF0;
 }
 
 
@@ -616,6 +632,7 @@ margin-top: 42px;}
    line-height: 48px;
    margin: 56px 413px 120px 94px;
    color: #31A9B0;
+   font-weight: 400;
 }
 
 .funded-portfolio{
@@ -690,6 +707,7 @@ margin-top: 42px;}
   color: #FFFFF0;
   margin-top: 23px;
   margin-bottom: 96px;
+  border: none;
 }
 
 /* find-investor */
@@ -713,8 +731,6 @@ margin-top: 42px;}
   padding-left: 36px;
   color: #746C6C;
   font-size: 24px;
-
-
 }
 
 .search-icon{
@@ -744,7 +760,6 @@ margin-top: 42px;}
   line-height: 33.6px;
   color: #0898A0;
   margin-bottom: 31px;
-  
 }
 
 .featured-investors-title{
@@ -763,7 +778,7 @@ margin-top: 42px;}
 }
 
 .investors{
-  background: #ADDDDF33;
+  background: #ADDDDF33; 
   padding: 50px 203px 120px 87px;
   box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
 }
@@ -792,6 +807,7 @@ margin-top: 42px;}
   font-size: 40px;
   line-height: 48px;
   margin: 130px 0 14px;
+  font-weight: 400;
 }
 
 .investor-details{
@@ -909,6 +925,7 @@ margin-top: 42px;}
   border: none;
   align-self: center;
   font-size: 24px;
+  border-radius: 8px;
 }
 
 /* footer */
@@ -989,6 +1006,7 @@ margin-top: 42px;}
   background-repeat: no-repeat;
 }
 
+
 .events-img img{
   width: 100%;
   height: 100%;
@@ -1059,13 +1077,11 @@ margin-top: 42px;}
 
 .upcoming-events{
   margin-left: 189px;
- 
 }
 
 .all-upcoming-events{
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .upcoming-event{
@@ -1091,6 +1107,7 @@ margin-top: 42px;}
   color: #0898A0;
   line-height: 43.2px;
   margin-bottom: 24px;
+  font-weight: 400;
 }
 
 .upcoming-event p{
@@ -1141,6 +1158,7 @@ margin-top: 42px;}
   color: #0898A0;
   margin-bottom: 15px;
   margin-left: calc(611px - 189px);
+  font-weight: 400;
 
 }
 .invest-signup p{
@@ -1192,6 +1210,7 @@ margin-top: 42px;}
   line-height: 48px;
   color: #5ABAC0;
   margin: 62px 0 24px;
+  font-weight: 400;
 }
 
 .stories{
@@ -1242,5 +1261,539 @@ margin-top: 42px;}
 .last-month .stories:last-child{
   margin-bottom: 67px;
 }
- 
 
+/* forms */
+
+/* sign up form */
+
+.SignUp-container {
+  display: flex;
+  width: 1440px;  
+  height: 1200px;
+}
+
+
+
+/* Control the left side */
+.text-left {
+  left: 0px;
+  background-color: #0898A0;
+  top: 0px;
+  width: 732px;
+  height: 100%;
+}
+
+.text-1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFF0;
+  opacity: 0.8;
+  font-size: 36px;
+  line-height: 43px;
+  width: 256px;
+  height: 43px;
+  left: 240px;
+  top: 394px;
+
+}
+.text-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFF0;
+  opacity: 0.8;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33.6px;
+  width: 378px;
+  height: 68px;
+  left: 140px;
+  top: 445px;
+}
+.text-3 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  width: 194px;
+  height: 62px;
+  left: 250px;
+  top: 537px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #0898A0;
+  border: none;
+}
+.text-3 a{
+  text-decoration: none;
+}
+
+
+/* Control the right side . Title represents the heading, full name, email address etc. while text-right represents the input sections*/
+
+
+.text-right {
+  left: 0px;
+}
+
+.sign-up-trestle-link{
+  padding-top: 20px;
+}
+
+.text-right-1 {
+  position: absolute;
+  width: 259px;
+  height: 43px;
+  left: 917px;
+  top: 123px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+
+.text-right-2 {
+  position: absolute;
+  width: 238px;
+  height: 56px;
+  left: 924px;
+  top: 174px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+
+.input-boxes input{
+  padding-left: 30px;
+  font-family: "Roboto", sans-serif;
+  line-height: 22.4px;
+  color: #584E4E;
+  opacity: 0.6;
+}
+
+
+.title-1 {
+  position: absolute;
+  width: 284.27px;
+  height: 45px;
+  left: 808px;
+  top: 254px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+.text-right-3 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 306.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+
+.title-2 {
+  position: absolute;
+  width: 154px;
+  height: 34px;
+  left: 810.35px;
+  top: 407.98px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+.text-right-4 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 449.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-3 {
+  position: absolute;
+  width: 107px;
+  height: 34px;
+  left: 810.35px;
+  top: 539.45px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+.text-right-5 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 581.37px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-4 {
+  position: absolute;
+  width: 204px;
+  height: 34px;
+  left: 810.35px;
+  top: 678.64px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+.text-right-6 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 810.35px;
+  top: 720.57px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.button-submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  position: absolute;
+  width: 193px;
+  height: 62px;
+  left: 950px;
+  top: 836px;
+  background-color: #0898A0;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #FFFFF0;
+  line-height: 34px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+
+/*SignIn form section*/
+
+.SignIn-container {
+  display: flex;
+  position: absolute;
+  width: 1440px; 
+  min-height: 1200px;
+}
+
+.Trestle-logo {
+  position: absolute;
+  width: 130px;
+  height: 43px;
+  left: 100px;
+  top: 63px;
+  font-family: "Hammersmith one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  color: #0898A0;
+}
+
+.text-left-SignIn {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  left: 0px;
+  top: 0px;
+  width: 708px;
+    
+  
+}
+.text-SignIn-1 {
+  position: absolute;
+  width: 289px;
+  height: 43px;
+  left: 224px;
+  top: 165px;
+  font-family: "Hammersmith one";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0898A0;
+}
+.circle-container {
+  display: flex;
+  justify-content: center;
+}
+.circle-1 {
+  position: absolute;
+  width: 52.36px;
+  height: 52.36px;
+  left: 258.97px;
+  top: 228.27px;
+  border: 1px solid #0898A0;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.circle-1-logo {
+  box-sizing: border-box;
+  position: absolute;
+  left: 34.21%;
+  right: 79.85%;
+  top: 35.28%;
+  bottom: 74.56%;
+}
+.circle-2 {
+  position: absolute;
+  width: 52.36px;
+  height: 52.36px;
+  left: 335.82px;
+  top: 228.27px;
+  border: 1px solid #0898A0;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.circle-2-logo {
+  box-sizing: border-box;
+  position: absolute;
+  left: 32.21%;
+  right: 79.85%;
+  top: 35.28%;
+  bottom: 74.56%;
+}
+.circle-3 {
+  position: absolute;
+  width: 52.36px;
+  height: 52.36px;
+  left: 412.67px;
+  top: 228.27px;
+  border: 1px solid #0898A0;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.circle-3-logo {
+  box-sizing: border-box;
+  position: absolute;
+  left: 34.21%;
+  right: 79.85%;
+  top: 35.28%;
+  bottom: 74.56%;
+}
+
+.SignIn-container input{
+  padding-left: 31px;
+}
+
+.text-SignIn-2 {
+  position: absolute;
+  width: 230px;
+  height: 28px;
+  left: 254px;
+  top: 299px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0898A0;
+  opacity: 0.8;
+}
+
+.title-SignIn-1 {
+  position: absolute;
+  width: 284.27px;
+  height: 45px;
+  left: 100px;
+  top: 418px;
+  font-family: "Roboto",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+.SignIn-box-1 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 102.35px;
+  top: 471.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-SignIn-3 {
+  position: absolute;
+  width: 284.27px;
+  height: 45px;
+  left: 100px;
+  top: 570px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+}
+.SignIn-box-2 {
+  position: absolute;
+  width: 549.64px;
+  height: 83.35px;
+  left: 102.35px;
+  top: 617.91px;
+  border: 2.5px solid #0898A0;
+  border-radius: 9px;
+}
+.title-SignIn-4 {
+  position: absolute;
+  width: 129px;
+  height: 22px;
+  left: 490px;
+  top: 712px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0898A0;
+  opacity: 0.5;
+}
+.title-SignIn-4 a{
+  color: #0898A0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.title-SignIn-4 a:hover,
+.title-SignIn-4 a:focus{
+  color: blue;
+}
+
+.button-login-SignIn {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  width: 194px;
+  height: 62px;
+  left: 239px;
+  top: 734px;
+  border-radius: 8px;
+  background-color: #0898A0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFF0;
+  border: none;
+}
+/*controls the right section of the sign in page*/
+.text-right-SignIn {
+  left: 0px;
+  background-color: #0898A0;
+  width: 708px;
+  /* height: 100%; */
+}
+
+.text-right-SignIn-1 {
+  position: absolute;
+  color: #FFFFF0;
+  opacity: 0.8;
+  font-size: 36px;
+  line-height: 120%;
+  width: 202px;
+  height: 43px;
+  left: 985px;
+  top: 375px;
+  
+}
+.text-right-SignIn-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFF0;
+  opacity: 0.8;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  width: 372px;
+  height: 68px;
+  left: 900px;
+  top: 426px;
+}
+.text-right-SignIn-3 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 40px;
+  width: 194px;
+  height: 62px;
+  left: 989px;
+  top: 518px;
+  border-radius: 8px;
+  background-color: #FFFFF0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #0898A0;
+  border: none;
+
+}

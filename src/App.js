@@ -8,6 +8,8 @@ import SuccessStories from "./components/SuccessStories"
 import Events from "./components/Events"
 import Nav from "./components/Nav"
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import SignUp from "./components/SignUp"
+import SignIn from "./components/SignIn"
 
 
 
@@ -22,6 +24,8 @@ export default function App(){
                     <Route path="find-investor" element={<FindInvestor />} />
                     <Route path="events" element={<Events />} />
                     <Route path="success-stories" element={<SuccessStories />} />
+                    <Route path="sign-in" element={<SignIn />} />
+                    <Route path="sign-up" element={<SignUp />} />
                 </Routes>
             </Router>
             </>

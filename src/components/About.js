@@ -57,7 +57,7 @@ export default function About(){
                 </div>
                 <div className="sign-up-div">
                     <h3>READY TO GET STARTED?</h3>
-                    <button className="sign-up">SIGN UP</button>
+                    <button className="sign-up"><a href="/sign-up">SIGN UP</a></button>
                 </div>
             </div>
             <AboutTrestle />
