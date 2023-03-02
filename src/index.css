@@ -101,10 +101,9 @@ nav ul {
   
 }
 
-
-
 .nav-login a:visited{
   color: #0898A0;
+  color: inherit; 
 }
 
 .nav-signup a:visited{
