@@ -106,7 +106,7 @@ nav ul {
 }
 
 .nav-signup a:visited{
-  color: red;
+  color: inherit;
   
 }
 
