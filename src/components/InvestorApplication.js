@@ -93,7 +93,7 @@ export default function InvestorApplication (){
                     </label>
                 </div>
                 
-                <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-28 py-2"><a href="/application-received-investor">Submit</a></button>
+                <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-24 py-2"><a href="/application-received-investor">Submit</a></button>
             </form>
             <div className="ml-10 mt-32">
                 <AboutTrestleHome />

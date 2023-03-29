@@ -82,7 +82,7 @@ export default function BusinessOwnerApplication (){
                     <textarea className="w-full border border-teal-600 mt-3 rounded-lg py-20 px-3"></textarea>
                 </label>
                 <p className="w-5/12 mt-14 xl:text-lg opacity-80">Note: Thank you for your interest in joining our community, your application has been duly received, check your mail within the next 48hours for further information.</p>
-                <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-28 py-2 "><a href="/application-received-business">Submit</a></button>
+                <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-24 py-2 "><a href="/application-received-business">Submit</a></button>
             </form>
             <div className="ml-10 mt-32">
                 <AboutTrestleHome />
