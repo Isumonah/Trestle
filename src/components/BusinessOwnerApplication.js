@@ -7,8 +7,8 @@ import Footer from "./Footer"
 export default function BusinessOwnerApplication (){
     return(
         <div className=" business-owner-application">
-            <nav className="business-owner-application-nav p-4">
-                <ul className="m-0 p-0 w-full flex text-sm items-center xl:justify-evenly ">
+            <nav className="business-owner-application-nav p-4 w-full">
+                <ul className="m-0 p-0 flex text-sm items-center xl:justify-evenly w-full">
                     <li className="text-base text-teal-600 xl:text-3xl the-trestle-logo"><a href="/">TRESTLE</a></li>
                     <li className="ml-14 text-teal-600 xl:ml-72 xl:text-3xl">Application Process</li>
                     <li className="flex space-x-1 text-xs xl:text-lg ml-6 items-center">

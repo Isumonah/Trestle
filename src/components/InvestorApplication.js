@@ -7,7 +7,7 @@ import Footer from "./Footer"
 export default function InvestorApplication (){
     return(
         <div className=" business-owner-application">
-            <nav className="business-owner-application-nav p-4 xl:px-20">
+            <nav className="business-owner-application-nav p-4 xl:px-20 w-full">
                 <ul className="m-0 p-0 w-full flex text-sm items-center xl:justify-between ">
                     <li className="text-base text-teal-600 xl:text-3xl"><a href="/" className="the-trestle-logo">TRESTLE</a></li>
                     <div className="flex xl:space-x-12">
