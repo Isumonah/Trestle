@@ -35,8 +35,8 @@ export default function Nav(){
                     
                 </ul>
             </div>
-                <div  className="login-signup"><button className="nav-login"><a href="sign-in">LOG IN</a></button>
-                <button className="nav-signup"><a href="sign-up">SIGN UP</a></button>
+                <div  className="login-signup"><button className="nav-login"><a href="sign-in" className="visited:text-teal-600">LOG IN</a></button>
+                <button className="nav-signup"><a href="sign-up" className="visited:text-yellow-100">SIGN UP</a></button>
             </div>
       </nav>
     );

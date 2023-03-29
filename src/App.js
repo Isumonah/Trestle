@@ -10,6 +10,10 @@ import Nav from "./components/Nav"
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import SignUp from "./components/SignUp"
 import SignIn from "./components/SignIn"
+import InvestorApplication from "./components/InvestorApplication"
+import BusinessOwnerApplication from "./components/BusinessOwnerApplication"
+import ApplicationReceivedBusiness from "./components/ApplicationReceivedBusiness"
+import ApplicationReceivedInvestor from "./components/ApplicationReceivedInvestor"
 
 
 
@@ -26,6 +30,11 @@ export default function App(){
                     <Route path="success-stories" element={<SuccessStories />} />
                     <Route path="sign-in" element={<SignIn />} />
                     <Route path="sign-up" element={<SignUp />} />
+                    <Route path="investor-application" element={<InvestorApplication />} />
+                    <Route path="business-owner-application" element={<BusinessOwnerApplication />} />
+                    <Route path="application-received-business" element={<ApplicationReceivedBusiness />} />
+                    <Route path="application-received-investor" element={<ApplicationReceivedInvestor />} />
+
                 </Routes>
             </Router>
             </>

@@ -22,12 +22,12 @@ export default function Home(){
                 <div className="home-owner">
                   <h4>Are you a Business Owner?</h4>  
                   <p>We connect you to over a thousand investors with verified portfolios around Africa</p>
-                  <button>Apply Now!</button>
+                  <button><a href="/business-owner-application" className="visited:text-gray-100">Apply Now!</a></button>
                 </div>
                 <div className="home-investor">
                   <h4>Are you an Investor?</h4>  
                   <p>Our platform reaches over 300,000 small and medium verified enterprises in Africa. Let's chat.</p>
-                  <button>Invest Now!</button>
+                  <button><a href="/investor-application" className="visited:text-teal-600">Invest Now!</a></button>
                 </div>
             </div>
             <div className="trestle-vision">
@@ -52,7 +52,7 @@ export default function Home(){
                     </div>
                         <img src={tolase} alt="picture of Tolase Oluleye" />
                 </div>
-                <div className="carousel">   <div className="carousel-btns">
+                <div className="carousel">   <div className="carousel-btns flex">
                         <img src={smallCircleGreen} />
                         <img src={smallCircle} />
                         <img src={smallCircle} />
