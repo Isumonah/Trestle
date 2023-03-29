@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -102,11 +108,11 @@ nav ul {
 }
 
 .nav-login a:visited{
-  color: inherit; 
+  color: #0898A0; 
 }
 
 .nav-signup a:visited{
-  color: inherit;
+  color: #FFFFF0;
   
 }
 
@@ -289,6 +295,10 @@ nav ul {
   color: #FFFFF0;
   margin-top: 84px;
   margin-left: calc(436px - 88px);
+}
+
+.home-owner button:visited{
+  color: #FFFFF0;
 }
 
 .home-investor button{
@@ -1796,3 +1806,44 @@ margin-top: 42px;}
   border: none;
 
 }
+
+/* business-owner-application */
+
+.business-owner-application-nav{
+  background: #ADDDDF33;
+}
+
+.business-owner-application input,
+.business-owner-application select,
+.business-owner-application textarea{
+    background-color: #FFFFF0;
+}
+
+.business-owner-application{
+  color: #0898A0;
+}
+
+.business-owner-application button{
+  color: #FFFFF0;
+
+}
+
+.business-owner-application label{
+  font-size: 24px;
+}
+
+.business-owner-application input,
+.business-owner-application select{
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+
+/* application-received-investor */
+
+.application-received-investor{
+    color: #0898A0
+}
+
+
+
