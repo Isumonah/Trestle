@@ -14,7 +14,7 @@ export default function ApplicationReceivedInvestor(){
                   <img src={shopify} />  
                   <p>Shopify</p>
                 </div>
-                <div className="flex items-center xl:text-lg">
+                <div className="flex items-center xl:text-lggir ">
                   <img src={bestBuy} />  
                   <p>Best Buy</p>
                 </div>
