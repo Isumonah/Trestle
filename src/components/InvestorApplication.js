@@ -9,7 +9,7 @@ export default function InvestorApplication (){
         <div className=" business-owner-application">
             <nav className="business-owner-application-nav p-4 xl:px-20">
                 <ul className="m-0 p-0 w-full flex text-sm items-center xl:justify-between ">
-                    <li className="text-base text-teal-600 xl:text-3xl"><a href="/">TRESTLE</a></li>
+                    <li className="text-base text-teal-600 xl:text-3xl"><a href="/" className="the-trestle-logo">TRESTLE</a></li>
                     <div className="flex xl:space-x-12">
                         <li className="flex space-x-1 text-xs xl:text-lg ml-6 items-center">
                             <img src={settings} className="h-4" />
