@@ -746,18 +746,17 @@ margin-top: 42px;}
 
 .search-icon{
   width: 105px;
-  height: 70px;
+  height: 66px;
   border-radius: 9px;
   background: #0898A0;
-  text-align: center;
-  align-self: center;
   margin-left: -30px;
+  display: flex;
 }
 
 .search-icon img{
   width: 30px;
   height: 30px;
-  margin-top: 16.5px;
+  margin: auto;
 }
 
 .filter-investors{
