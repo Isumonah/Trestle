@@ -10,7 +10,10 @@ import Nav from "./components/Nav"
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import SignUp from "./components/SignUp"
 import SignIn from "./components/SignIn"
-
+import BusinessOwnerApplication from "./components/BusinessOwnerApplication"
+import InvestorApplication from "./components/InvestorApplication"
+import ApplicationReceivedBusiness from "./components/ApplicationReceivedBusiness"
+import ApplicationReceivedInvestor from "./components/ApplicationReceivedInvestor"
 
 
 export default function App(){
@@ -26,10 +29,10 @@ export default function App(){
                     <Route path="success-stories" element={<SuccessStories />} />
                     <Route path="sign-in" element={<SignIn />} />
                     <Route path="sign-up" element={<SignUp />} />
+                    <Route path="investor-application" element={<InvestorApplication />} />
+                    <Route path="owner-application" element={<BusinessOwnerApplication />} />
                 </Routes>
             </Router>
-            </>
-          
-        
+        </>
     )
 }
