@@ -18,6 +18,7 @@ export default function Home(){
                 </h2>
                 <button className="join-community-button rounded-lg px-2 lg:px-3 xl:px-4 xl:py-2 py-1 mt-2 md:text-xl lg:text-2xl xl:mr-40 xl:px-3 bg-[#0898A0] text-[#FFFFF0]">Join Our Community!</button>
             </div>
+<<<<<<< HEAD
             <div className="home-owner-investor lg:flex bg-[#ADDDDF] lg:justify-center lg:py-12">
                 <div className="home-owner flex flex-col items-center lg:h-[300px] justify-center py-10 md:py-12 lg:py-14 xl:h-[400px] xl:w-[700px] z-10" >
                   <h4 className="text-xl md:text-3xl lg:text-3xl">Are you a Business Owner?</h4>  
@@ -28,6 +29,18 @@ export default function Home(){
                   <h4 className=" text-xl md:text-3xl ">Are you an Investor?</h4>  
                   <p className="mt-1 md:text-2xl w-3/4 md:mt-4 xl:ml-20">Our platform reaches over 300,000 small and medium verified enterprises in Africa. Let's chat.</p>
                   <button className="px-3 py-1 lg:px-4 lg:py-2 mt-2 md:mt-4 text-lg md:text-xl xl:mt-16  xl:ml-96"><a href="/investor-application">Invest Now!</a></button>
+=======
+            <div className="home-owner-investor">
+                <div className="home-owner">
+                  <h4>Are you a Business Owner?</h4>  
+                  <p>We connect you to over a thousand investors with verified portfolios around Africa</p>
+                  <button><a href="/business-owner-application" className="visited:text-gray-100">Apply Now!</a></button>
+                </div>
+                <div className="home-investor">
+                  <h4>Are you an Investor?</h4>  
+                  <p>Our platform reaches over 300,000 small and medium verified enterprises in Africa. Let's chat.</p>
+                  <button><a href="/investor-application" className="visited:text-teal-600">Invest Now!</a></button>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
                 </div>
             </div>
             <div className="trestle-vision py-10 md:py-12 lg:py-14">
@@ -60,6 +73,25 @@ export default function Home(){
                     <p className="mt-3">Read more featured stories  ></p>
                     </div>
                 </div>
+<<<<<<< HEAD
+=======
+                <div className="business-mogul tolase">
+                    <div className="business-mogul-writeup">
+                        <h3 className="tolase-name">TOLASE OLULEYE (NIG)</h3>
+                        <p className="tolase-writeup">Meet Tolase our super biz of the month. Tolase is a graduate of economics from University of Ibadan, she holds a masters degree in Business Administration from Lagos Business school. After graduation Tolase wanted more for her life and she decided to start selling fabric but due to lack of fund Tolase could not expand as much as she wanted, she came across trestle and she pitched her idea and fortunately she finally found an investor and that is the beginning of her turn about within few months Tolase has sold more than 1million fabric across Africa. Tolase is our super star and we are proud of her success.
+ 
+                         </p>
+                    </div>
+                        <img src={tolase} alt="picture of Tolase Oluleye" />
+                </div>
+                <div className="carousel">   <div className="carousel-btns flex">
+                        <img src={smallCircleGreen} />
+                        <img src={smallCircle} />
+                        <img src={smallCircle} />
+                    </div>
+                    <p>Read more featured stories  ></p>
+                </div>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
             </div>
             <div className="home-about-trestle-div flex justify-center"> <AboutTrestleHome /></div>
             <div className="w-full">

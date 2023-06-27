@@ -25,10 +25,27 @@ button:focus{
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+<<<<<<< HEAD
 
 .trestle-link a{
   color: #0898A0;
   font-weight: 400;
+=======
+.trestle-link a{
+    width: 130px;
+    height: 43px;
+    font-weight: 400;
+    margin-left: 80px;
+    border-bottom: 2.5px solid #0898A0;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: #0898A0;
+
+}
+
+.the-trestle-logo{
+  border-bottom: 2.5px solid #0898A0;
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
 }
 
 .trestle-link a:hover{
@@ -76,12 +93,11 @@ nav ul {
 }
 
 .nav-login a:visited{
-  color: inherit; 
+  color: #0898A0;
 }
 
 .nav-signup a:visited{
-  color: inherit;
-  
+  color:#FFFFF0;
 }
 
 
@@ -200,6 +216,10 @@ nav ul {
   background: #0898A0;
   color: #FFFFF0;
   
+}
+
+.home-owner button:visited{
+  color: #FFFFF0;
 }
 
 .home-investor button{
@@ -654,9 +674,29 @@ nav ul {
 /* find-investor */
 
 .search-icon{
+<<<<<<< HEAD
   background-color: #0898A0;
 }
 
+=======
+  width: 105px;
+  height: 66px;
+  border-radius: 9px;
+  background: #0898A0;
+  margin-left: -30px;
+  display: flex;
+}
+
+.search-icon img{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+.filter-investors{
+  margin: 0 0 59.5px 94px;
+}
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
 
 .filter-investors-title{
   font-family: "Roboto", sans-serif;
@@ -1348,6 +1388,7 @@ nav ul {
   font-size: 36px;
   line-height: 120%;
   color: #0898A0;
+  border-bottom: 2px solid #0898A0;
 }
 
 .text-left-SignIn {

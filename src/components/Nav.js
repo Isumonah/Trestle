@@ -39,8 +39,15 @@ export default function Nav(){
                     </li>
                     
                 </ul>
+<<<<<<< HEAD
         </div>
             
+=======
+            </div>
+                <div  className="login-signup"><button className="nav-login"><a href="sign-in" className="visited:text-teal-600">LOG IN</a></button>
+                <button className="nav-signup"><a href="sign-up" className="visited:text-yellow-100">SIGN UP</a></button>
+            </div>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
       </nav>
     );
 }
