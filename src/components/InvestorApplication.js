@@ -7,9 +7,15 @@ import Footer from "./Footer"
 export default function InvestorApplication (){
     return(
         <div className=" business-owner-application">
+<<<<<<< HEAD
+            <nav className="business-owner-application-nav p-4 xl:px-20">
+                <ul className="m-0 p-0 w-full flex text-sm items-center xl:justify-between ">
+                    <li className="text-base text-teal-600 xl:text-3xl"><a>TRESTLE</a></li>
+=======
             <nav className="business-owner-application-nav p-4 xl:px-20 w-full">
                 <ul className="m-0 p-0 w-full flex text-sm items-center xl:justify-between ">
                     <li className="text-base text-teal-600 xl:text-3xl"><a href="/" className="the-trestle-logo">TRESTLE</a></li>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
                     <div className="flex xl:space-x-12">
                         <li className="flex space-x-1 text-xs xl:text-lg ml-6 items-center">
                             <img src={settings} className="h-4" />
@@ -93,7 +99,11 @@ export default function InvestorApplication (){
                     </label>
                 </div>
                 
+<<<<<<< HEAD
+                <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-28 py-2">Submit</button>
+=======
                 <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-24 py-2"><a href="/application-received-investor">Submit</a></button>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
             </form>
             <div className="ml-10 mt-32">
                 <AboutTrestleHome />

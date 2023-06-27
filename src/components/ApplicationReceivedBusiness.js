@@ -4,8 +4,13 @@ import quip from "../images/quip.png"
 
 export default function ApplicationReceivedBusiness(){
     return(
+<<<<<<< HEAD
+        <div className="application-received-investor bg-white h-screen xl:pt-24 xl:pl-24">
+            <a href="/home" className="xl:text-3xl">TRESTLE</a>
+=======
         <div className="application-received-investor bg-white h-screen xl:pt-16 trestle-link-a xl:pl-24">
             <a href="/" className="xl:text-3xl the-trestle-logo">TRESTLE</a>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
             <h2 className="xl:text-3xl xl:mt-32 text-center">Application Received!</h2>
             <p className="text-center w-5/12 mx-auto mt-6 xl:text-lg opacity-80">Thank you for your interest in joining our community , your application has been duly received. Check your mail within the next 48 hours to get a confirmation and two verified investors from our screening team.</p>
             <p className="xl:text-lg xl:mt-40 text-center">Top Investors for you:</p>

@@ -7,9 +7,15 @@ import Footer from "./Footer"
 export default function BusinessOwnerApplication (){
     return(
         <div className=" business-owner-application">
+<<<<<<< HEAD
+            <nav className="business-owner-application-nav p-4">
+                <ul className="m-0 p-0 w-full flex text-sm items-center xl:justify-evenly ">
+                    <li className="text-base text-teal-600 xl:text-3xl"><a>TRESTLE</a></li>
+=======
             <nav className="business-owner-application-nav p-4 w-full">
                 <ul className="m-0 p-0 flex text-sm items-center xl:justify-evenly w-full">
                     <li className="text-base text-teal-600 xl:text-3xl the-trestle-logo"><a href="/">TRESTLE</a></li>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
                     <li className="ml-14 text-teal-600 xl:ml-72 xl:text-3xl">Application Process</li>
                     <li className="flex space-x-1 text-xs xl:text-lg ml-6 items-center">
                         <img src={settings} className="h-4" />
@@ -82,7 +88,11 @@ export default function BusinessOwnerApplication (){
                     <textarea className="w-full border border-teal-600 mt-3 rounded-lg py-20 px-3"></textarea>
                 </label>
                 <p className="w-5/12 mt-14 xl:text-lg opacity-80">Note: Thank you for your interest in joining our community, your application has been duly received, check your mail within the next 48hours for further information.</p>
+<<<<<<< HEAD
+                <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-28 py-2 ">Submit</button>
+=======
                 <button className="rounded-lg bg-teal-600 w-32 text-white mx-auto text-lg mt-24 py-2np "><a href="/application-received-business">Submit</a></button>
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
             </form>
             <div className="ml-10 mt-32">
                 <AboutTrestleHome />

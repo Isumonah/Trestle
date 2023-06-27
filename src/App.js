@@ -10,11 +10,18 @@ import Nav from "./components/Nav"
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import SignUp from "./components/SignUp"
 import SignIn from "./components/SignIn"
+<<<<<<< HEAD
+import BusinessOwnerApplication from "./components/BusinessOwnerApplication"
+import InvestorApplication from "./components/InvestorApplication"
+import ApplicationReceivedBusiness from "./components/ApplicationReceivedBusiness"
+import ApplicationReceivedInvestor from "./components/ApplicationReceivedInvestor"
+=======
 import InvestorApplication from "./components/InvestorApplication"
 import BusinessOwnerApplication from "./components/BusinessOwnerApplication"
 import ApplicationReceivedBusiness from "./components/ApplicationReceivedBusiness"
 import ApplicationReceivedInvestor from "./components/ApplicationReceivedInvestor"
 
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
 
 
 export default function App(){
@@ -31,14 +38,16 @@ export default function App(){
                     <Route path="sign-in" element={<SignIn />} />
                     <Route path="sign-up" element={<SignUp />} />
                     <Route path="investor-application" element={<InvestorApplication />} />
+<<<<<<< HEAD
+                    <Route path="owner-application" element={<BusinessOwnerApplication />} />
+=======
                     <Route path="business-owner-application" element={<BusinessOwnerApplication />} />
                     <Route path="application-received-business" element={<ApplicationReceivedBusiness />} />
                     <Route path="application-received-investor" element={<ApplicationReceivedInvestor />} />
 
+>>>>>>> 104dfbb06e63bd25eccb9f41aa3256d26051922f
                 </Routes>
             </Router>
-            </>
-          
-        
+        </>
     )
 }
