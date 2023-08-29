@@ -6,7 +6,7 @@ import youtube from "../images/youtube.png"
 
 export default function Footer(){
     return(
-        <div className="footer py-6 justify-between">
+        <div className="footer py-6 justify-between text-[13px] sm:text-[15px] md:text-[17px] lg:text-[20px] xl:text-[24px]">
             <div className="footer-explore-resources-contact flex justify-evenly">
                 <div className="footer-explore text-xs sm:text-base">
                     <h3 className="">EXPLORE</h3>
@@ -26,19 +26,19 @@ export default function Footer(){
                     <div className="footer-social-media mt-2">
                         <ul className="flex space-x-2 items-center">
                             <li className="">
-                                <img className="w-6 md:w-8" src={twitter} alt="twitter-icon" />
+                                <img className="w-6 md:w-8 transform hover:scale-[1.1]" src={twitter} alt="twitter-icon" />
                                 <a href="https://twitter.com/home"></a>
                                 </li>
                             <li>
-                                <img className="w-6 md:w-8"  src={instagram} alt="instagram-icon" />
+                                <img className="w-6 md:w-8 transform hover:scale-[1.1]"  src={instagram} alt="instagram-icon" />
                                 <a href="https://www.instagram.com/"></a>
                             </li>
                             <li>
-                                <img className="w-6 md:w-8"  src={linkedIn} alt="linkedin-icon" />
+                                <img className="w-6 md:w-8 transform hover:scale-[1.1]"  src={linkedIn} alt="linkedin-icon" />
                                 <a href="https://www.linkedin.com/in"></a>
                             </li>
                             <li>
-                                <img className="w-6 md:w-8"  src={youtube} alt="youtube-icon" />
+                                <img className="w-6 md:w-8 transform hover:scale-[1.1]"  src={youtube} alt="youtube-icon" />
                                 <a href="https://www.youtube.com/"></a>
                             </li>
                         </ul>

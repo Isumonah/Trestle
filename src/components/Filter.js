@@ -1,7 +1,7 @@
 
 export default function Filter(){
     return(
-        <div className="filter flex text-sm flex-wrap sm:text-lg md:text-xl lg:text-2xl xl:items-start mx-6 sm:mx-8 lg:mx-10">
+        <div className="filter flex text-sm flex-wrap sm:text-lg md:text-xl lg:text-2xl xl:items-start text-[13px] sm:text-[15px] md:text-[17px] lg:text-[20px] xl:text-[24px]">
                 <select name="category" id="category" className="my-3 mr-3 py-2 lg:px-3">
                     <option value="Category">Category</option>
                     <option value="Jewelry">Jewelry</option>
